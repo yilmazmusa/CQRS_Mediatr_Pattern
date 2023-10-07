@@ -20,7 +20,6 @@ namespace DAL.CQRS.Handlers.CommandHandlers
                 Price = createProductCommandRequest.Price,
                 Quantity = createProductCommandRequest.Quantity,
                 CreateTime = DateTime.Now
-
             });
 
             return new CreateProductCommandResponse

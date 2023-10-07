@@ -15,7 +15,6 @@ namespace DAL.CQRS.Handlers.CommandHandlers
             var id = Guid.NewGuid();
             ApplicationDBContext.Products.Add(new()
             {
-
                 Id = id,
                 Name = createProductCommandRequest.Name,
                 Price = createProductCommandRequest.Price,

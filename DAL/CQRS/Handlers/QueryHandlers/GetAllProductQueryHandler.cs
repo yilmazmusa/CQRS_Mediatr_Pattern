@@ -20,6 +20,7 @@ namespace DAL.CQRS.Handlers.QueryHandlers
                 Price= product.Price,
                 CreateTime= product.CreateTime
             }).ToList();
+
         }
     }
 }
